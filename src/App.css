@@ -1,31 +1,43 @@
 html, body {
   margin: 0;
   height: 100%;
+  color: white;
+  background-image:  linear-gradient(0deg,rgba(0,0,0,.10),#001), url('./assets/campus.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 } 
 
-.brand-title
-{
+header {
+  
+}
+
+.brand-title {
   font-family: 'Merriweather', sans-serif;
 }
 
-#brand-bar
-{
+#center-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  font-size: 60px;
+}
+
+#brand-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
   align-items: center;
-  background: linear-gradient(0deg,rgba(0,0,0,.75),#000);
-  color: white;
+
 }
-.navbar
-{
+
+.navbar {
   width:30%
 }
-.navbar-list
-{
+
+.navbar-list {
   display: flex;
-  
   list-style-type: none;
 }
 
@@ -33,12 +45,10 @@ html, body {
 {
   justify-content: space-between;
   align-items: flex-end;
-  list-style-type: none;
 }
 
 .navbar-bot-list
 {
-  
   justify-content: center;
   align-items: center;
 }

@@ -5,32 +5,37 @@ function HomePage() {
         <> 
             <header>
             <section id="brand-bar">
-                <a class="brand-title">Hambridge University</a>
-                <nav class="navbar" >
-                    <ul class="navbar-list navbar-top-list">
-                        <li class="navbar-item">Students</li>
-                        <li class="navbar-item">Faculty &#x26; Staff</li>
-                        <li class="navbar-item">Parents </li>
-                        <li class="navbar-item">Visitors</li>
-                        <li class="navbar-item">Alumni</li>
+                <a className="brand-title">Hambridge University</a>
+                <nav className="navbar" >
+                    <ul className="navbar-list navbar-top-list">
+                        <li className="navbar-item">Students</li>
+                        <li className="navbar-item">Faculty &#x26; Staff</li>
+                        <li className="navbar-item">Parents </li>
+                        <li className="navbar-item">Visitors</li>
+                        <li className="navbar-item">Alumni</li>
                     </ul>
                 </nav>
             </section>
             <section>
-                <nav class=""> 
-                    <ul class="navbar-list navbar-bot-list">
-                            <li class="">News</li>
-                            <li class="">Events</li>
-                            <li class="">Academics</li>
-                            <li class="">Research</li>
-                            <li class="">Health Care</li>
-                            <li class="">Campus Life</li>
-                            <li class="">Admission</li>
-                            <li class="">About</li>
+                <nav className=""> 
+                    <ul className="navbar-list navbar-bot-list">
+                            <li className="">News</li>
+                            <li className="">Events</li>
+                            <li className="">Academics</li>
+                            <li className="">Research</li>
+                            <li className="">Health Care</li>
+                            <li className="">Campus Life</li>
+                            <li className="">Admission</li>
+                            <li className="">About</li>
                         </ul>
                 </nav>
             </section>
-            
+            <section id="center-panel">
+                <h1 className="brand-title">Hambridge</h1>
+            </section>
+            {/* <section>
+                <p>Explore Hambridge</p>
+            </section> */}
             </header>
             
         </>
