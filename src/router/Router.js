@@ -7,6 +7,7 @@ function RouterComponent() {
         <Router>
             <Switch>
                 <Route path="/" component={Home}></Route>
+                <Route path="/about" component={Home}></Route>
             </Switch>
         </Router>
     )
