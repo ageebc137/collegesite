@@ -36,7 +36,21 @@ function HomePage() {
                 <section id="explore-banner">
                     <p>Explore Hambridge</p>
                 </section>
+                
             </header>
+            <main>
+                <section id="hambridge-news">
+                    <h1>Hambridge Today</h1>
+                    <p>The latest news from Hambridge</p>
+                    <div id="top-news">
+                        <div className="news-widget news-widget-large"></div>
+                        <div id="top-news-right">
+                            <div className="news-widget news-widget-small"></div>
+                            <div className="news-widget news-widget-small"></div>
+                        </div>
+                    </div>
+                </section>
+            </main>
             
         </>
     );
