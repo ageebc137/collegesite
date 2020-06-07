@@ -49,7 +49,11 @@ function HomePage() {
                              <p>their expertise to tackling the COVID-19 crisis</p>
                             </div>
                         <div id="top-news-right">
-                            <div className="news-widget news-widget-small"></div>
+                            <div id="second-news-photo" className="news-widget news-widget-small">
+                                <div class="news-widget-small-title">
+                                    <p>Ipsum Lorem</p>
+                                </div>
+                            </div>
                             <div className="news-widget news-widget-small"></div>
                         </div>
                     </div>
