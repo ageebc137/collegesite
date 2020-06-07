@@ -43,11 +43,22 @@ function HomePage() {
                     <h1>Hambridge Today</h1>
                     <p>The latest news from Hambridge</p>
                     <div id="top-news">
-                        <div className="news-widget news-widget-large"></div>
+                        <div id="first-news-photo" className="news-widget news-widget-large">
+                            <p>IN THE SPOTLIGHT</p>
+                            <p>Hambridge scholars and researchers lend</p>
+                             <p>their expertise to tackling the COVID-19 crisis</p>
+                            </div>
                         <div id="top-news-right">
                             <div className="news-widget news-widget-small"></div>
                             <div className="news-widget news-widget-small"></div>
                         </div>
+                    </div>
+                    <div id="top-news">
+                        <div id="top-news-right">
+                            <div className="news-widget news-widget-small"></div>
+                            <div className="news-widget news-widget-small"></div>
+                        </div>
+                        <div className="news-widget news-widget-large"></div>
                     </div>
                 </section>
             </main>
