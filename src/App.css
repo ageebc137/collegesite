@@ -162,7 +162,7 @@ main {
 
 #hambridge-news {
   color: black;
-  background-color: white;
+  background-color: #e0e0e0;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -180,10 +180,29 @@ main {
   background-image:  url('./assets/prof.jpg');
 }
 
+#third-news-photo {
+  background-image:  url('./assets/police.jpg');
+}
 
+#fourth-news-photo {
+  background-image:  url('./assets/physicist.jpg');
+}
+
+#fifth-news-photo {
+  background-image:  url('./assets/medicine.jpg');
+}
+
+#sixth-news-photo {
+  background-image: linear-gradient(0deg,rgba(0,0,0,.5),rgba(0,0,0,.5)), url('./assets/car.jpg');
+}
 .news-widget-small-title {
+  padding-top: 10px;
   color: black;
   background-color: white;
   width: 100%;
-  height: 25%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }

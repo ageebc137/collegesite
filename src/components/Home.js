@@ -51,18 +51,44 @@ function HomePage() {
                         <div id="top-news-right">
                             <div id="second-news-photo" className="news-widget news-widget-small">
                                 <div class="news-widget-small-title">
-                                    <p>Ipsum Lorem</p>
+                                    <p>HUMANITIES</p>
+                                    <p>Economics Chair Sanchez</p>
+                                    <p>Appointed to Head Bank of Spain</p>
                                 </div>
                             </div>
-                            <div className="news-widget news-widget-small"></div>
+                            <div id="third-news-photo" className="news-widget news-widget-small">
+                            <div class="news-widget-small-title">
+                                    <p>SOCIAL SCIENCES</p>
+                                    <p>Race and Policing: A Study </p>
+                                    <p>On Nationwide Policing</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div id="top-news">
                         <div id="top-news-right">
-                            <div className="news-widget news-widget-small"></div>
-                            <div className="news-widget news-widget-small"></div>
+                            <div id="fourth-news-photo" className="news-widget news-widget-small">
+                                <div class="news-widget-small-title">
+                                        <p>SCIENCES</p>
+                                        <p>Physicist Dr. Clarkson Wins </p>
+                                        <p>Nobel Prize for Entropy</p>
+                                </div>
+                            </div>
+                            <div id="fifth-news-photo" className="news-widget news-widget-small">
+                                <div class="news-widget-small-title">
+                                   
+                                        <p>MEDICINE</p>
+                                        <p>New Pill Discovered </p>
+                                        <p>That Can Treat Alzhiemer's</p>
+                            
+                                </div>
+                            </div>
                         </div>
-                        <div className="news-widget news-widget-large"></div>
+                        <div id="sixth-news-photo" className="news-widget news-widget-large">
+                            <p>ENGINEERING</p>
+                            <p>Hambridge students develop new network mapping</p>
+                            <p>to make self-driving cars safer</p>
+                        </div>
                     </div>
                 </section>
             </main>
