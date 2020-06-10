@@ -92,13 +92,14 @@ function HomePage() {
                     </div>
                     <button> More Hambridge News</button>
                 </section>
+                
                 <section id="hambridge-events">
                     <h1>Hambridge Events</h1>
                     <p>What's happening on campus?</p>
                     <div id="latest-events">
                         <div class="event-widget">
                             <p>A Virtual Workshop On </p>
-                            <p>Economic Growth Amid Corona Crisis</p>
+                            <p>Economic Growth Amid Corona</p>
                         </div>
                         <div class="event-widget"> 
                             <p>Digital Grid Virtual Workshop : </p>
