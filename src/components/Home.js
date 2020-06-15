@@ -18,8 +18,7 @@ function HomePage() {
             <main>
                 <NewsContainer/>
                 <EventsContainer/>
-            </main>
-            
+            </main>  
         </>
     );
 }
