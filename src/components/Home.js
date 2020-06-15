@@ -3,24 +3,21 @@ import NewsContainer from './Home/NewsContainer';
 import EventsContainer from './Home/EventsContainer';
 import TopBarMenu from './Home/TopBarMenu';
 import BotBarMenu from './Home/BotBarMenu';
+import CentralBannerContainer from './Home/CentralBannerContainer';
+import ExploreBannerContainer from './Home/ExploreBannerContainer';
 
 function HomePage() {
     return (
         <> 
             <header>
-                <TopBarMenu></TopBarMenu>
-                <BotBarMenu></BotBarMenu>
-                <section id="center-panel">
-                    <h1 className="brand-title">Hambridge</h1>
-                </section>
-                <section id="explore-banner">
-                    <p>Explore Hambridge</p>
-                </section>
-                
+                <TopBarMenu/>
+                <BotBarMenu/>
+                <CentralBannerContainer/>
+                <ExploreBannerContainer/>
             </header>
             <main>
-                <NewsContainer></NewsContainer>
-                <EventsContainer></EventsContainer>
+                <NewsContainer/>
+                <EventsContainer/>
             </main>
             
         </>
