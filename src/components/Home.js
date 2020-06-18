@@ -6,6 +6,7 @@ import BotBarMenu from './Home/BotBarMenu';
 import CentralBannerContainer from './Home/CentralBannerContainer';
 import ExploreBannerContainer from './Home/ExploreBannerContainer';
 
+
 function HomePage() {
     return (
         <> 
@@ -20,7 +21,6 @@ function HomePage() {
                 <EventsContainer/>
                 <Academics />
                 <Quote />
-                <Research />
                 <Research />
                 <Healthcare />
                 <CampusLife />
