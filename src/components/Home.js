@@ -19,13 +19,13 @@ function HomePage() {
             <main>
                 <NewsContainer/>
                 <EventsContainer/>
-                <Academics />
-                <Quote />
-                <Research />
-                <Healthcare />
-                <CampusLife />
-                <Admission />
-                <About />
+                <AcademicsContainer />
+                <QuoteContainer />
+                <ResearchContainer />
+                <HealthcareContainer />
+                <CampusLifeContainer />
+                <AdmissionContainer />
+                <AboutContainer />
             </main>  
         </>
     );
