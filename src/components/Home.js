@@ -18,7 +18,7 @@ function HomePage() {
                 <ExploreBannerContainer/>
             </header>
             <main>
-                <NewsContainer/>
+                {/* <NewsContainer/>
                 <EventsContainer/>
                 <AcademicsContainer />
                 <QuoteContainer />
@@ -26,7 +26,7 @@ function HomePage() {
                 <HealthcareContainer />
                 <CampusLifeContainer />
                 <AdmissionContainer />
-                <AboutContainer />
+                <AboutContainer /> */}
             </main>  
         </>
     );
