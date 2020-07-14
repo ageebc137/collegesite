@@ -5,7 +5,13 @@ import TopBarMenu from './Home/TopBarMenu';
 import BotBarMenu from './Home/BotBarMenu';
 import CentralBannerContainer from './Home/CentralBannerContainer';
 import ExploreBannerContainer from './Home/ExploreBannerContainer';
-
+import AcademicsContainer from './Home/AcademicsContainer';
+import QuoteContainer from './Home/QuoteContainer';
+import ResearchContainer from './Home/ResearchContainer';
+import HealthcareContainer from './Home/HealthcareContainer';
+import CampusLifeContainer from './Home/CampusLifeContainer';
+import AdmissionContainer from './Home/AdmissionContainer';
+import AboutContainer from './Home/AboutContainer';
 
 
 function HomePage() {

@@ -7,4 +7,4 @@ function HealthcareContainer() {
     )
 }
 
-export default HealthCareContainer;
+export default HealthcareContainer;
