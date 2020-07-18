@@ -23,6 +23,7 @@ function EventsContainer() {
                 <p>Summer Musical Concert </p>
             </div>
         </div>
+        <button> More Hambridge Events</button>
     </section>
     )
 }
