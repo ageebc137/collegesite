@@ -220,9 +220,40 @@ main {
 .event-widget {
   display: flex;
   flex-direction: column;
-  width: 250px;
-  height: 300px;
+  justify-content: flex-end;
+  width: 300px;
+  height: 500px;
   background-color: black;
+}
+
+.event-widget-text {
+  height: 40%;
+  text-align: left;
+  padding-left: 10px;
+  background-color: white;
+  color: black;
+}
+
+.event-widget-date {
+  height: 70px;
+  width: 70px;
+  z-index: 1;
+  margin-left: 10px;
+  margin-bottom: -10px;
+  background-color:grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  
+
+}
+
+.event-widget-day {
+  font-size: 12px;
+
 }
 
 #hambridge-events {
@@ -232,4 +263,17 @@ main {
   align-items: center;
   width: 100%;
   
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
