@@ -4,6 +4,7 @@ function ResearchContainer() {
     return (
         <section>
             <p>Research Container</p>
+            <p>Add some content</p>
         </section>
     )
 }
