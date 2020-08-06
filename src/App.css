@@ -277,3 +277,9 @@ main {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+
+.research-news {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
