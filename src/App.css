@@ -283,3 +283,60 @@ main {
   display: flex;
   justify-content: space-between;
 }
+
+.three-box-section {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.three-box-widget {
+  width:380px;
+}
+
+.three-box-photo {
+  height: 300px;
+  width: 100%;
+  background-image:  url('./assets/police.jpg');
+}
+
+.two-box-section {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-box-widget {
+  width:550px;
+  text-align: left;
+}
+
+#base-photo {
+  background-image: url("./assets/base-campus.jpg");
+  background-size: cover;
+  width:100vw;
+  height: 500px;
+}
+
+#base-menu {
+  display: flex;
+}
+
+#mid-base-section {
+  display: flex;
+}
+footer {
+  display: flex;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container-column {
+  flex-direction: column;
+}
+
+.flex-container-row {
+  flex-direction: row;
+}
